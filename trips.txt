@@ -1,0 +1,76 @@
+Ivanov I. I.;2023;5;10;Moscow;1500.5
+Smirnova O. V.;2023;9;7;Samara;1600
+Popov S. A.;2024;11;12;Minsk;2200.5
+Vasilieva A. M.;2022;6;8;Ufa;1400.75
+Morozov A. P.;2023;2;14;Tula;1750
+Novikova E. I.;2025;4;9;Ryazan;1900.25
+Kozlov A. N.;2024;8;11;Voronezh;2100.5
+Sokolova Y. S.;2023;10;6;Yaroslavl;1300
+Lebedev M. V.;2022;12;13;Perm;1850.75
+Zaytseva E. A.;2025;3;17;Kirov;1950.25
+Grigoriev P. O.;2024;5;10;Chelyabinsk;1700
+Fedorova D. P.;2023;7;15;Izhevsk;2050.5
+Tikhonov I. S.;2022;1;4;Kaluga;1250.75
+Belyaeva N. I.;2025;6;19;Lipetsk;2150
+Romanov K. Y.;2024;9;8;Tomsk;1650.25
+Egorova S. A.;2023;11;12;Saratov;1450.5
+Krylov V. M.;2022;2;16;Novosibirsk;2250
+Ivanova A. S.;2025;8;5;Ekaterinburg;1350.75
+Pavlov D. A.;2024;4;14;Krasnodar;1950.25
+Makarova T. O.;2023;12;9;Rostov;1750
+Stepanov R. V.;2022;10;11;Volgograd;1550.5
+Orlova K. P.;2025;2;7;Nizhny Novgorod;1850.75
+ylua;2000;12;40;minsk;1000
+Timofeeva D. N.;2025;7;15;Smolensk;2150
+Zhukov O. A.;2024;1;10;Tyumen;1750.75
+Kotova E. S.;2023;9;12;Astrakhan;1950.25
+Nikolaev V. O.;2022;11;8;Barnaul;1550.5
+Fomina A. V.;2025;4;14;Irkutsk;2250
+Semenov G. P.;2024;8;9;Kemerovo;1850.75
+Dmitrieva P. A.;2023;6;16;Khabarovsk;2050.25
+Borisov Y. S.;2022;2;5;Vladivostok;1350.5
+Kudryavtseva S. I.;2025;10;11;Murmansk;1650
+Levin S. P.;2024;12;13;Arkhangelsk;1950.75
+Alekseeva V. O.;2023;1;7;Pskov;1750.25
+Gusev N. A.;2022;3;15;Chita;2150.5
+Tarasova E. S.;2025;5;10;Kostroma;1450
+Sharov D. V.;2024;7;12;Belgorod;1850.75
+Medvedeva O. P.;2023;9;8;Vladimir;1650.25
+Rogov A. N.;2022;11;14;Ivanovo;2050.5
+Klimova A. A.;2025;2;6;Kurgan;1550
+Polyakov S. O.;2024;4;17;Magadan;2250.75
+Vinogradova D. I.;2023;6;9;Norilsk;1750.25
+Zotov I. S.;2022;8;11;Orenburg;1950.5
+Kravtsova M. P.;2025;10;13;Penza;1850
+Saveliev M. V.;2024;12;5;Salekhard;1650.75
+Efimova N. A.;2023;1;15;Tambov;2050.25
+Goncharov P. O.;2022;3;10;Ulyanovsk;1450.5
+Larionova Y. S.;2025;5;12;Cheboksary;2250
+Kiselev A. A.;2024;7;8;Yakutsk;1750.75
+Mironova E. N.;2023;9;14;Yuzhno-Sakhalinsk;1950.25
+Trofimov D. P.;2022;11;6;Anadyr;1550.5
+Bogdanova A. V.;2025;2;17;Birobidzhan;2150
+Sukhanov R. S.;2024;4;9;Grozny;1850.75
+Fedoseeva D. O.;2023;6;11;Makhachkala;1650.25
+Kovalev A. I.;2022;8;13;Nalchik;2050.5
+Zakharova O. A.;2025;10;5;Nazran;1450
+Loginov V. P.;2024;12;15;Cherkessk;2250.75
+Stepanova M. S.;2023;1;10;Elista;1750.25
+Rudakov N. O.;2022;3;12;Maikop;1950.5
+Tikhomirova A. V.;2025;5;8;Petrozavodsk;1850
+Gerasimov S. A.;2024;7;14;Syktyvkar;1650.75
+Kuzmina E. P.;2023;9;6;Ulan-Ude;2050.25
+Vorobiev D. S.;2022;11;17;Khanty-Mansiysk;2150.5
+Panina N. O.;2025;2;9;Surgut;1550
+Shestakov A. V.;2024;4;11;Nizhnevartovsk;1950.75
+Melnikova Y. A.;2023;6;13;Novy Urengoy;1750.25
+Baranov I. N.;2022;8;5;Noyabrsk;1850.5
+Solovieva D. S.;2025;10;15;Salavat;2250
+Grishin P. O.;2024;12;10;Sterlitamak;1650.75
+Frolova A. V.;2023;1;12;Nefteyugansk;2050.25
+Tkachev M. A.;2022;3;8;Achinsk;1450.5
+Litvinova O. S.;2025;5;14;Bratsk;2150
+ivan;2000;1;12;minsk;1200
+jjjjjjjjjjjjjjjjjjjjjjjjjjjjjj;12;12;1;123;123
+hh;2000;1;1;uj;1000
+hhh;12;12;12;12;12
