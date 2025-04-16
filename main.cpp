@@ -549,7 +549,7 @@ void viewTripsScreen() {
             napms(1000);
             return;
         }
-        trip.city = inputString(10, 0, "Город (макс. 20): ", false, 20);
+        trip.city = inputString(10, 0, "Город (макс. 12): ", false, 12);
         if (trip.city == "/" || trip.city.empty()) {
             mvprintw(height - 1, 0, "Добавление отменено!");
             refresh();
@@ -605,7 +605,7 @@ void editTripScreen() {
         int totalWidth = std::accumulate(colWidths, colWidths + 7, 0) + 6;
         if (totalWidth > width) colWidths[1] = width - (totalWidth - colWidths[1]);
 
-        std::string header = "№   |Ф.И.О.                          |Год |Мс|Дн|Город          |Расх/день";
+        std::string header = "№   |Ф.И.О.                        |Год |Мс|Дн|Город       |Расх/день";
         mvprintw(2, 0, header.substr(0, width).c_str());
         mvprintw(3, 0, std::string(totalWidth, '-').c_str());
 
@@ -775,39 +775,6 @@ void editTripScreen() {
     }
 }
 
-
-
-    // void deleteTripScreen() {
-    //     int height, width;
-    //     getmaxyx(stdscr, height, width);
-    //     clear();
-    //     mvprintw(0, 0, "=== Удаление командировки ===");
-    //     std::string indexStr = inputString(2, 0, "Введите номер командировки: ");
-    //     if (indexStr == "/") return;
-    //     int index;
-    //     try {
-    //         index = std::stoi(indexStr) - 1;
-    //     } catch (...) {
-    //         mvprintw(height - 1, 0, "Ошибка: введите корректный номер!");
-    //         refresh();
-    //         napms(1000);
-    //         return;
-    //     }
-    //     auto trips = tripService.readTrips();
-    //     if (index >= 0 && index < trips.size()) {
-    //         mvprintw(4, 0, MSG_CONFIRM_DELETE.c_str());
-    //         refresh();
-    //         if (getch() == 'y') {
-    //             tripService.deleteTrip(index);
-    //             mvprintw(height - 1, 0, MSG_SUCCESS.c_str());
-    //         }
-    //     } else {
-    //         mvprintw(height - 1, 0, MSG_NOT_FOUND.c_str());
-    //     }
-    //     refresh();
-    //     napms(1000);
-    // }
-
 void deleteTripScreen() {
     int height, width;
     getmaxyx(stdscr, height, width);
@@ -835,7 +802,7 @@ void deleteTripScreen() {
         int totalWidth = std::accumulate(colWidths, colWidths + 7, 0) + 6;
         if (totalWidth > width) colWidths[1] = width - (totalWidth - colWidths[1]);
 
-        std::string header = "№   |Ф.И.О.                          |Год |Мс|Дн|Город          |Расх/день";
+        std::string header = "№   |Ф.И.О.                        |Год |Мс|Дн|Город       |Расх/день";
         mvprintw(2, 0, header.substr(0, width).c_str());
         mvprintw(3, 0, std::string(totalWidth, '-').c_str());
 
@@ -895,7 +862,7 @@ void deleteTripScreen() {
                 int miniTotalWidth = std::accumulate(miniColWidths, miniColWidths + 7, 0) + 6;
                 if (miniTotalWidth > width) miniColWidths[1] = width - (miniTotalWidth - miniColWidths[1]);
 
-                std::string miniHeader = "№   |Ф.И.О.                          |Год |Мс|Дн|Город          |Расх/день";
+                std::string miniHeader = "№   |Ф.И.О.                        |Год |Мс|Дн|Город       |Расх/день";
                 mvprintw(4, 0, miniHeader.substr(0, width).c_str());
                 mvprintw(5, 0, std::string(miniTotalWidth, '-').c_str());
 
@@ -972,7 +939,7 @@ void deleteTripScreen() {
             int totalWidth = std::accumulate(colWidths, colWidths + 7, 0) + 6;
             if (totalWidth > width) colWidths[1] = width - (totalWidth - colWidths[1]);
             
-            std::string header = "№   |Ф.И.О.                          |Год |Мс|Дн|Город          |Расх/день";
+            std::string header = "№   |Ф.И.О.                        |Год |Мс|Дн|Город       |Расх/день";
             mvprintw(2, 0, header.substr(0, width).c_str());
             mvprintw(3, 0, std::string(totalWidth, '-').c_str());
 
@@ -1028,7 +995,7 @@ void deleteTripScreen() {
         int totalWidth = std::accumulate(colWidths, colWidths + 4, 0) + 3;
         if (totalWidth > width) colWidths[1] = width - (totalWidth - colWidths[1]);
 
-        std::string header = "   № |Логин               |Админ      |Заблокирован";
+        std::string header = "№  |Логин               |Админ       |Заблокирован";
         mvprintw(2, 0, header.substr(0, width).c_str());
         mvprintw(3, 0, std::string(totalWidth, '-').c_str());
 
@@ -1198,7 +1165,7 @@ void deleteTripScreen() {
             int startIdx = currentPage * dataRows;
             int endIdx = std::min(startIdx + dataRows, static_cast<int>(pending.size()));
 
-            mvprintw(2, 0, "   № |Логин               ");
+            mvprintw(2, 0, "  № |Логин               ");
             mvprintw(3, 0, "-------------------------");
             int y = 4;
             for (int i = startIdx; i < endIdx && y < height - 1; ++i) {
@@ -1307,7 +1274,7 @@ void tripSummaryScreen() {
                 int totalWidth = std::accumulate(colWidths, colWidths + 3, 0) + 2;
                 if (totalWidth > width) colWidths[1] = width - (colWidths[0] + colWidths[2] + 2);
 
-                std::string header = "№   |Город                          |Посещений";
+                std::string header = "№   |Город                         |Посещений";
                 mvprintw(2, 0, header.substr(0, width).c_str());
                 mvprintw(3, 0, std::string(totalWidth, '-').c_str());
 
